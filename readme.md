@@ -19,7 +19,7 @@ To get started, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone
+   git clone https://github.com/redaezziani/scrape-data-store-jolt.git
     ```
 2. Install the dependencies:
 
@@ -36,6 +36,7 @@ To get started, follow these steps:
 5. Run the scraper script:
 
    ```bash
+   npm prisma  
    npm start
    ```
 6. Verify that the data has been successfully scraped and stored in the database.
@@ -43,6 +44,11 @@ To get started, follow these steps:
 ## Usage
 
 The scraper script can be run manually or scheduled to run at specific intervals. You can customize the script to scrape data from different e-commerce websites by modifying the scraping logic.
+
+
+## Note 
+- The script not working if you dont have the : https://github.com/redaezziani/Jolt-store
+- The script is not working if you dont have the laravel api to store the data
 
 ## License
 
