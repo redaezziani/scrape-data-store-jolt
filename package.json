@@ -1,23 +1,17 @@
 {
   "type": "module",
-  "name": "scrape-data-store",
+  "name": "scrape-data-store-jolt",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web scraper with pagination support to store product data in JSON",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "prisma": "npx prisma db push"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^5.18.0",
-    "dotenv": "^16.4.5",
-    "puppeteer": "^22.14.0"
+    "puppeteer": "^21.0.0"
   },
-  "devDependencies": {
-    "prisma": "^5.18.0"
-  }
+  "devDependencies": {}
 }
